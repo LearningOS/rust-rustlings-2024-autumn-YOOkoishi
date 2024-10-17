@@ -17,6 +17,6 @@ fn main() {
         Some(p) => println!("Co-ordinates are {},{} ", p.x, p.y),
         _ => panic!("no match!"),
     }
-
-    //y; // Fix without deleting this line.
+    let y: Option<Point> = None;
+    y; // Fix without deleting this line.
 }
